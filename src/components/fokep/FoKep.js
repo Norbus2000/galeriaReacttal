@@ -10,16 +10,16 @@ function FoKep({ kepekAdat, handleBalra, handleJobbra }) {
         <Button
           type="button"
           variant="outline-dark"
-          onClick={(event) => handleJobbra()}
+          onClick={(event) => handleBalra()}
         >
-          {"Előző"}
+          {"<"}
         </Button>
         <Button
           type="button"
           variant="outline-dark"
-          onClick={(event) => handleBalra()}
+          onClick={(event) => handleJobbra()}
         >
-          {"Következő"}
+          {">"}
         </Button>
       </div>
     </div>

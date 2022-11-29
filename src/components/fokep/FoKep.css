@@ -1,6 +1,7 @@
 .fokep {
   display: flex;
   flex-direction: column;
+  text-align: center;
 }
 
 .fokep .gombok {
@@ -14,7 +15,7 @@ Button {
 }
 
 .fokep img {
-  width: 600px;
-  height: 400px;
+  width: 500px;
+  height: 300px;
   object-fit: cover;
 }

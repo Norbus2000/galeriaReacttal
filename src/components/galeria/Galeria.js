@@ -32,16 +32,16 @@ function Galeria() {
     },
   ];
 
-  const [aktKep, setAktKep] = useState(1);
+  const [aktKep, setAktKep] = useState(0);
 
   const handleBalra = () => {
     setAktKep((aktKep) =>
-      aktKep === kepek.length - 1 ? setAktKep(0) : aktKep + 1
+    aktKep === 0 ? kepek.length - 1 : aktKep - 1
     );
   };
   const handleJobbra = () => {
     setAktKep((aktKep) =>
-      aktKep === 0 ? setAktKep(kepek.length - 1) : aktKep - 1
+      aktKep === kepek.length - 1 ? 0 : aktKep + 1
     );
   };
   return (
@@ -54,7 +54,7 @@ function Galeria() {
         aktKep={aktKep}
         setAktKep={setAktKep}
       />
-      <Kepek kepekAdat={kepek} setAktKep={setAktKep} />
+      <Kepek kepekAdat={kepek} setAktKep={setAktKep} aktKep={aktKep} />
     </div>
   );
 }

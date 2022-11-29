@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/galeriaReacttal/static/css/main.5cb5f039.css",
+    "main.js": "/galeriaReacttal/static/js/main.e9c7ec2f.js",
+    "static/js/787.c09832c0.chunk.js": "/galeriaReacttal/static/js/787.c09832c0.chunk.js",
+    "index.html": "/galeriaReacttal/index.html",
+    "main.5cb5f039.css.map": "/galeriaReacttal/static/css/main.5cb5f039.css.map",
+    "main.e9c7ec2f.js.map": "/galeriaReacttal/static/js/main.e9c7ec2f.js.map",
+    "787.c09832c0.chunk.js.map": "/galeriaReacttal/static/js/787.c09832c0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5cb5f039.css",
+    "static/js/main.e9c7ec2f.js"
+  ]
+}

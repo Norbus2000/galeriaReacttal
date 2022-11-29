@@ -46,5 +46,9 @@
     "gh-pages": "^4.0.0",
     "postcss": "^8.4.19",
     "tailwindcss": "^3.2.4"
+  },
+  "homepage" : 
+    "https://norbus2000.github.io/galeriaReacttal/"
   }
-}
+
+
